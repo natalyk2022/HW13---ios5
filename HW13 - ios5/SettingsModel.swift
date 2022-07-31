@@ -23,6 +23,11 @@ class SettingsModel {
                 Settings(imageName: "moon", title: "Не беспокоить", type: .disclosureType),
                 Settings(imageName: "antenna.radiowaves.left.and.right", title: "Сотовая связь", type: .disclosureType),
                 Settings(imageName: "hourglass", title: "Экранное время", type: .disclosureType)
+            ],
+            [
+                Settings(imageName: "gear", title: "Основные", type: .disclosureType),
+                Settings(imageName: "switch.2", title: "Пункт управления", type: .disclosureType),
+                Settings(imageName: "textformat.size", title: "Экран и яркость", type: .disclosureType)
             ]
         ]
     }
