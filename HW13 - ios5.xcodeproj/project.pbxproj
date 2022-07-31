@@ -13,6 +13,8 @@
 		C139D14E2896D2FD0052F6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C139D14C2896D2FD0052F6A1 /* Main.storyboard */; };
 		C139D1502896D2FF0052F6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C139D14F2896D2FF0052F6A1 /* Assets.xcassets */; };
 		C139D1532896D2FF0052F6A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C139D1512896D2FF0052F6A1 /* LaunchScreen.storyboard */; };
+		C139D15C2896D93B0052F6A1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139D15B2896D93B0052F6A1 /* Settings.swift */; };
+		C139D15E2896DB890052F6A1 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139D15D2896DB890052F6A1 /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C139D14F2896D2FF0052F6A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C139D1522896D2FF0052F6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C139D1542896D2FF0052F6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C139D15B2896D93B0052F6A1 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C139D15D2896DB890052F6A1 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C139D14F2896D2FF0052F6A1 /* Assets.xcassets */,
 				C139D1512896D2FF0052F6A1 /* LaunchScreen.storyboard */,
 				C139D1542896D2FF0052F6A1 /* Info.plist */,
+				C139D15B2896D93B0052F6A1 /* Settings.swift */,
+				C139D15D2896DB890052F6A1 /* SettingsModel.swift */,
 			);
 			path = "HW13 - ios5";
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C139D14B2896D2FD0052F6A1 /* ViewController.swift in Sources */,
+				C139D15E2896DB890052F6A1 /* SettingsModel.swift in Sources */,
 				C139D1472896D2FD0052F6A1 /* AppDelegate.swift in Sources */,
+				C139D15C2896D93B0052F6A1 /* Settings.swift in Sources */,
 				C139D1492896D2FD0052F6A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
